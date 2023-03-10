@@ -1,0 +1,324 @@
+
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    /* background-color: #2196F3;
+    color: #fff; */
+    height: 5vw;
+    width: 10vw;
+  }
+
+  #mydiv2 {
+    position: absolute;
+    z-index: 9;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+  }
+  
+  #mydivheader2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    /* background-color: #2196F3;
+    color: #fff; */
+    height: 5vw;
+    width: 10vw;
+  }
+  .dblclick-wrap {
+    position: relative; /* For absolute positioning within */
+}
+
+.dblclick {
+    position: relative; /* So z-index works later, but no surprises now */
+    /* background: blue; Uncomment to test coverage */
+}
+
+.dblclick + span {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 103%; /* Gotta do this instead of right: 0; */
+    bottom: -1px;
+    z-index: 1;
+    /* background: red; Uncomment background property to test coverage */
+}
+
+.dblclick + span:active {
+    left: -9999px;
+}
+
+.dblclick:hover {
+    z-index: 2; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#button{
+position: absolute;
+width: 176px;
+height: 60px;
+left: 30vw;
+top: 998px;
+
+background: #D9D9D9;
+border-radius: 6px;
+}
+
+
+
+
+
+
+#img{
+  position: absolute;
+  height: auto;
+  width: 50%;
+  left: 6vw;
+  top: 100px;
+  transform: rotate(9.84deg);
+}
+
+
+
+#brand{
+position: absolute;
+width: 574px;
+height: 133px;
+left: 60.6vw;
+top: 82px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 59px;
+
+color: #000000;
+}
+#brand1{
+  position: absolute;
+width: 574px;
+height: 41px;
+left: 60.6vw;
+top: 142px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 40px;
+
+color: #000000;
+}
+
+
+
+
+
+
+#year{
+position: absolute;
+width: 574px;
+height: 133px;
+left: 60.6vw;
+top: 205px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 59px;
+
+color: #000000;
+}
+#year1{
+position: absolute;
+width: 574px;
+height: 44px;
+left: 60.6vw;
+top: 267px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 40px;
+
+color: #000000;
+}
+
+
+
+
+
+
+#garment{
+
+position: absolute;
+width: 574px;
+height: 134px;
+left: 60.6vw;
+top: 325px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 59px;
+
+color: #000000;
+}
+#garment1{
+  position: absolute;
+  width: 574px;
+  height: 46px;
+  left: 60.6vw;
+  top: 388px;
+  
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 40px;
+  
+  color: #000000; 
+}
+
+
+
+
+
+
+#price{
+position: absolute;
+width: 574px;
+height: 133px;
+left: 60.6vw;
+top: 447px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 59px;
+
+color: #000000;
+}
+#price1{
+  position: absolute;
+  width: 574px;
+  height: 33px;
+  left: 60.6vw;
+  top: 510px;
+  
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 40px;
+  
+  color: #000000;
+  
+}
+
+
+
+
+
+#worth{
+position: absolute;
+width: 574px;
+height: 133px;
+left: 60.6vw;
+top: 560px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 59px;
+
+color: #000000
+}
+#worth1{
+  position: absolute;
+  width: 574px;
+  height: 48px;
+  left: 60.6vw;
+  top: 624px;
+  
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 40px;
+  
+  color: #000000; 
+}
+
+
+
+
+#background{
+  position: absolute;
+width: 606px;
+height: 59px;
+left: 60.6vw;
+top: 689px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 43px;
+line-height: 59px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#background1{
+  position: absolute;
+  width: 606px;
+  height: 202px;
+  left: 60.6vw;
+  top: 756px;
+  
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 40px;
+  
+  color: #000000;
+}
