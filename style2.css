@@ -1,0 +1,59 @@
+/* #title{
+font-family: 'Futura';
+font-style: normal;
+font-size: 20vw;
+text-align: center;
+padding-top: 200px;
+font-weight: 900;
+line-height: 90%;
+background-color: white
+} */
+.button {
+    border: none;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Futura';
+    font-style: normal;
+    font-size: 20vw;
+    font-weight: 900;
+    line-height: 90%;   
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    
+  }
+  
+  .button1:hover {
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  img {
+    position: relative;
+    width: 80vw;
+    height: auto;
+    padding-left: 8vw;
+    align-content: center;
+  }
+  .blacksijeans{
+    position: absolute;
+    width: 9vw;
+    height: auto;
+  
+    left: 70.7vw;
+    top: 43.5vw;
+  }
+  .blacksi{
+    position: absolute;
+    width: 7vw;
+    height: auto;
+  
+    left: 56vw;
+    top: 42.8vw;
+  }
