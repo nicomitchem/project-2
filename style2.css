@@ -8,19 +8,19 @@ font-weight: 900;
 line-height: 90%;
 background-color: white
 } */
-.button {
+.button1 {
     border: none;
     color: white;
-    padding-top: 200px;
+    padding-top: 15vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Futura';
     font-style: normal;
-    font-size: 17vw;
+    font-size: 13vw;
     font-weight: 800;
     line-height: 90%;   
-    transition-duration: 0.5s;
+    transition-duration: 2s;
     cursor: pointer;
   }
   .home{
@@ -42,8 +42,8 @@ background-color: white
   }
   
   .button1:hover {
-    background-color: #ffffff;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.481);
+    color: rgba(255, 255, 255, 0.481);
   }
   
   img {
