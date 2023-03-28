@@ -105,6 +105,7 @@ background-color: white
     position: absolute;
     width: 8.5vw;
     height: auto;
+    cursor: pointer;
   
     left: 36.9vw;
     top: 37.9vw;
